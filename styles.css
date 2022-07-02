@@ -63,9 +63,16 @@ p {
 }
 
 #caption {
-    background-color: red;
     padding: 25px;
     padding-right: 300px;
+}
+
+#caption > p {
+    margin: 0;
+}
+
+#caption > p:last-child {
+    margin-bottom: 30px;
 }
 
 
