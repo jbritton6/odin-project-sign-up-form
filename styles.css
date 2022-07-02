@@ -16,7 +16,7 @@ body {
 #image {
     height: 100%;
     object-fit: cover;
-    overflow: hideen;
+    overflow: hiden;
     position: absolute;
     width: 100%;
     z-index: -1;
@@ -30,6 +30,7 @@ body {
     margin-top: 100px;
     padding: 13px 0;
     text-align: center;
+    width: inherit;
 }
 
 #credit {
@@ -37,6 +38,7 @@ body {
     bottom: 0;
     color: rgba(221, 208, 208, 0.879);
     font-size: 10px;    
+    margin-top: 100px;
     position: fixed;
     text-align: center;
     width: inherit;
