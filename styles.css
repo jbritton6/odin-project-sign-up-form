@@ -56,9 +56,42 @@ body {
     background-color: red;
 }
 
+
+
 #form {
     background-color: blue;
+    display: flex;
+    flex-direction: column;
 }
+
+#form-caption {
+    background-color: aqua;
+    flex-shrink: 0;
+}
+
+form {
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#form-left {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+#form-right {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+
+
 
 #submit {
     background-color: green;
