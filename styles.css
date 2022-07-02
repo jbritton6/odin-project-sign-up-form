@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    margin: 0;
+}
+
+#image {
+    height: 100%;
+    object-fit: cover;
+    overflow: hideen;
+    width: 100%;
+}
+
+#image-container {
+    width: max(30vw, 300px);
+    height: max(100vh, 600px);
+}
+
+#form-container {
+    background-color: red;
+    flex: 1;
+    height: 100vh;
+}
