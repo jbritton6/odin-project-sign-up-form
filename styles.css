@@ -114,7 +114,25 @@ form {
 
 
 #submit {
-    background-color: green;
     padding: 25px;
     padding-right: 300px;
+}
+
+#submit > button {
+    background-color: rgba(253, 184, 19, 1);
+    border: none;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 1);
+    padding: 7.5px 35px;
+    box-shadow: 1px 1px 1px rgba(221, 208, 208, 0.879);
+}
+
+#submit > button,
+#submit > p {
+    font-size: 15px;
+}
+
+#submit > p > a {
+    color:rgba(253, 184, 19, 1);
+    text-decoration: none;
 }
