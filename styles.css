@@ -95,23 +95,33 @@ form {
     background-color: yellowgreen;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
-#form-left {
+#form-top,
+#form-middle,
+#form-bottom {
+    align-items: center;
+    display: flex;
+    width: 400px;
+}
+
+#form-top {
+    align-items: center;
     background-color: blueviolet;
-    display: flex;
-    flex-direction: column;
-    width: 200px;
 }
 
-#form-right {
+#form-middle {
     background-color: beige;
-    display: flex;
-    flex-direction: column;
-    width: 200px;
 }
 
+#form-bottom {
+    background-color: khaki;
+}
+
+.form-element {
+    width: 180px;
+}
 
 
 #submit {
