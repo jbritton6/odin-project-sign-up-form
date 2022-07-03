@@ -117,7 +117,8 @@ form {
 
 .form-element {
     font-size: 10px;
-    padding: 5px 30px 5px 0;
+    font-weight: 900;
+    padding: 7.5px 30px 7.5px 0;
     text-transform: uppercase;
     width: 170px;
 }
