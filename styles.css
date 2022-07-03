@@ -62,11 +62,19 @@ p {
     justify-content: center;
 }
 
-
-#caption {
-    padding: 50px;
-    padding-right: 300px;
+#caption,
+#form,
+#submit {
+    padding: 25px 300px 25px 50px;
 }
+
+#form {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+
 
 #caption > p {
     margin: 0;
@@ -83,8 +91,6 @@ p {
     box-shadow: 0px 10px 10px -2px rgba(0, 0, 0, 0.04);
     display: flex;
     flex-direction: column;
-    padding-left: 50px;
-    padding-right: 300px;
 }
 
 #form-caption {
@@ -127,10 +133,6 @@ form {
 
 
 
-#submit {
-    padding: 50px;
-    padding-right: 300px;
-}
 
 #submit > button {
     background-color: rgba(253, 184, 19, 1);
