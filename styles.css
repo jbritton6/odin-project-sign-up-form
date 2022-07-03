@@ -1,3 +1,6 @@
+/******************************************************
+ *  Page wide styles
+ ******************************************************/
 body {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
@@ -9,6 +12,11 @@ p {
     font-size: 20px;
 }
 
+
+
+/******************************************************
+ *  Side bar styles
+ ******************************************************/
 #image-container {
     display: flex;
     flex-direction: column;
@@ -55,6 +63,9 @@ p {
 
 
 
+/******************************************************
+ *  Main area styles
+ ******************************************************/
 #form-container {
     background-color: rgba(243, 242, 242, 0.3);
     display: flex;
@@ -74,8 +85,7 @@ p {
 }
 
 
-
-
+ /* Caption styles */
 #caption > p {
     margin: 0;
 }
@@ -85,7 +95,7 @@ p {
 }
 
 
-
+/* Form styles */
 #form {
     background-color: rgba(255, 255, 255, 1);
     box-shadow: 0px 10px 10px -2px rgba(0, 0, 0, 0.04);
@@ -124,9 +134,7 @@ form {
 }
 
 
-
-
-
+/* Submission area styles */
 #submit > button {
     background-color: rgba(253, 184, 19, 1);
     border: none;
