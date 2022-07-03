@@ -94,12 +94,10 @@ p {
 }
 
 #form-caption {
-    background-color: aqua;
     flex-shrink: 0;
 }
 
 form {
-    background-color: yellowgreen;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -113,21 +111,15 @@ form {
     width: 400px;
 }
 
-#form-top {
-    align-items: center;
-    background-color: blueviolet;
-}
-
-#form-middle {
-    background-color: beige;
-}
-
 #form-bottom {
-    background-color: khaki;
+    margin-bottom: 20px;
 }
 
 .form-element {
-    width: 180px;
+    font-size: 10px;
+    padding: 5px 30px 5px 0;
+    text-transform: uppercase;
+    width: 170px;
 }
 
 
