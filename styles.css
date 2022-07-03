@@ -62,8 +62,9 @@ p {
     justify-content: center;
 }
 
+
 #caption {
-    padding: 25px;
+    padding: 50px;
     padding-right: 300px;
 }
 
@@ -82,7 +83,7 @@ p {
     box-shadow: 0px 10px 10px -2px rgba(0, 0, 0, 0.04);
     display: flex;
     flex-direction: column;
-    padding-left: 25px;
+    padding-left: 50px;
     padding-right: 300px;
 }
 
@@ -124,8 +125,10 @@ form {
 }
 
 
+
+
 #submit {
-    padding: 25px;
+    padding: 50px;
     padding-right: 300px;
 }
 
